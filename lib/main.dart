@@ -2,10 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:nanad/container/dua.dart';
 import 'package:nanad/container/satu.dart';
 import 'package:nanad/container/tiga.dart';
+import 'package:nanad/form/form_screen.dart';
 import 'package:nanad/list_view/contoh_dua.dart';
 import 'package:nanad/list_view/contoh_empat.dart';
 import 'package:nanad/list_view/contoh_satu.dart';
 import 'package:nanad/list_view/contoh_tiga.dart';
+import 'package:nanad/list_view/latihan_2.dart';
 import 'package:nanad/list_view/puncak_gunung.dart';
 import 'package:nanad/row_column/latihan_satu.dart';
 import 'package:nanad/row_column/row_column.dart';
@@ -22,7 +24,7 @@ class BelajarFlutter extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: PuncakGunung(),
+      home: BelajarForm(),
     );
   }
 }
